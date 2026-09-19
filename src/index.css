@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: 'Cinzel', serif;
+  --font-garamond: 'Cormorant Garamond', Georgia, serif;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Scheherazade New', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom smooth transitions for cards, buttons, and images */
+.hover-card-lift {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+}
+
+.hover-card-lift:hover {
+  transform: translateY(-8px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #021a14;
+}
+::-webkit-scrollbar-thumb {
+  background: #14532d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #15803d;
+}
+
+.urdu-text {
+  font-family: var(--font-urdu);
+  direction: rtl;
+  line-height: 2.2;
+}
+

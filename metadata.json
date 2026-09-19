@@ -1,0 +1,6 @@
+{
+  "name": "14 August - Pakistan Independence",
+  "description": "An elegant tribute to Pakistan's Independence Day featuring Quaid-e-Azam, Allama Iqbal, historic milestones, landmarks, and poetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
